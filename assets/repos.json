@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Agentes-Valorant",
+    "description": "O Agentes Valorant é um projeto acadêmico que apresenta, de forma interativa, os personagens do jogo Valorant. Utilizando HTML, CSS e JavaScript, o site proporciona uma navegação fluida e intuitiva, destacando as habilidades e características únicas de cada agente.",
+    "html_url": "https://github.com/Dav1Gomes/Agentes-Valorant",
+    "homepage": "https://dav1gomes.github.io/Agentes-Valorant/",
+    "language": "CSS",
+    "updated_at": "2026-09-03T02:27:36Z"
+  },
+  {
+    "name": "TCC-Impressopolis",
+    "description": "Projeto TCC de design impressão 3D",
+    "html_url": "https://github.com/Dav1Gomes/TCC-Impressopolis",
+    "homepage": "https://dav1gomes.github.io/TCC-Impressopolis/",
+    "language": "HTML",
+    "updated_at": "2026-01-14T18:19:35Z"
+  },
+  {
+    "name": "BrazukaZoo",
+    "description": "BrazukaZoo é um website feito em Java, onde os visitantes podem agendar visitas ao zoológico e ver os animais em exibição, o admin pode controlar as operações do zoológico e o funcionário pode cuidar dos animais e transferir entre os recintos.",
+    "html_url": "https://github.com/Dav1Gomes/BrazukaZoo",
+    "homepage": null,
+    "language": "Java",
+    "updated_at": "2025-06-22T20:24:49Z"
+  },
+  {
+    "name": "EldenList",
+    "description": "Elden List é um site onde você pode marcar quais bosses já derrotou em Elden Ring, filtrar, pesquisar e acompanhar seu progresso com dados da API Elden Ring Fan.",
+    "html_url": "https://github.com/Dav1Gomes/EldenList",
+    "homepage": "https://dav1gomes.github.io/EldenList/",
+    "language": "JavaScript",
+    "updated_at": "2025-06-22T20:20:16Z"
+  },
+  {
+    "name": "IA-da-Famlia",
+    "description": "O projeto \"IA da Família\" é uma plataforma digital interativa com o objetivo de melhorar o acesso às informações e serviços do SUS, utilizando Inteligência Artificial. Ele oferece orientações personalizadas sobre saúde, facilita a navegação no sistema de saúde, otimiza processos administrativos e promove educação em saúde.",
+    "html_url": "https://github.com/Dav1Gomes/IA-da-Famlia",
+    "homepage": "",
+    "language": "JavaScript",
+    "updated_at": "2025-06-22T20:12:29Z"
+  },
+  {
+    "name": "Trabalho-Tailwind",
+    "description": null,
+    "html_url": "https://github.com/Dav1Gomes/Trabalho-Tailwind",
+    "homepage": null,
+    "language": "C#",
+    "updated_at": "2025-06-19T19:27:28Z"
+  },
+  {
+    "name": "ControleCarteiraAcoes",
+    "description": "Este projeto, desenvolvido como trabalho acadêmico, é um aplicativo em React Native para gerenciamento de investimentos. Ele permite registrar compras e vendas de ações, acompanhar a rentabilidade, registrar dividendos e visualizar o desempenho da carteira por meio de um dashboard interativo.",
+    "html_url": "https://github.com/Dav1Gomes/ControleCarteiraAcoes",
+    "homepage": null,
+    "language": "JavaScript",
+    "updated_at": "2025-05-29T20:12:57Z"
+  },
+  {
+    "name": "Galeria-Pokemon",
+    "description": "Projeto criado por hobby, utilizando HTML, CSS e JavaScript com dados da PokéAPI. Permite pesquisar Pokémon, alternar entre formas normais e shiny, exibir seus tipos e ativar o modo escuro, com animações e efeitos visuais.",
+    "html_url": "https://github.com/Dav1Gomes/Galeria-Pokemon",
+    "homepage": "https://dav1gomes.github.io/Galeria-Pokemon/",
+    "language": "CSS",
+    "updated_at": "2025-05-29T18:39:37Z"
+  }
+]

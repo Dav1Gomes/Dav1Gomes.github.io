@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Davi Gomes — desenvolvedor frontend. Conheça meus projetos com React, JavaScript, Node.js e APIs."
+    />
+    <meta name="theme-color" content="#101014" />
+    <title>Davi Gomes · Desenvolvedor</title>
+    <link rel="icon" href="assets/oni.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("dg-theme") ||
+          (matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+      } catch {}
+    </script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+    <header class="header">
+      <a class="logo" href="#inicio" aria-label="Davi Gomes início"
+        ><img
+          class="brand-icon"
+          src="assets/oni.png"
+          width="48"
+          height="48"
+          alt="Oni flamejante"
+        /><span class="brand-name">Davi Gomes</span></a
+      >
+      <nav aria-label="Principal">
+        <a href="#projetos">Projetos</a><a href="#sobre">Sobre mim</a
+        ><a href="#contato">Contato <span>↗</span></a
+        ><a
+          class="nav-linkedin"
+          href="https://www.linkedin.com/in/davi-gomes-911821386/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn de Davi Gomes"
+          >in<span class="linkedin-arrow"> ↗</span></a
+        >
+      </nav>
+      <button
+        class="theme"
+        id="theme"
+        aria-label="Alternar tema"
+        title="Alternar tema"
+      >
+        ☀
+      </button>
+    </header>
+    <main id="main">
+      <section id="inicio" class="hero wrap">
+        <div class="hero-top">
+          <span class="eyebrow">PORTFÓLIO / DAVI GOMES</span
+          ><span class="availability"><i></i> Aberto a oportunidades</span>
+        </div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="intro">Olá, eu sou o Davi.</p>
+            <h1>
+              Ideias em código.<br />Interfaces com<br /><em>personalidade.</em>
+            </h1>
+            <p class="lead">
+              Desenvolvedor frontend, formado em ADS.<br />Construo experiências
+              web com React, JavaScript<br class="desktop" />
+              e curiosidade para ir além da interface.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projetos"
+                >Explore meus projetos <span>↘</span></a
+              ><a
+                class="text-link"
+                href="assets/Curriculo_Davi_Gomes.pdf"
+                download
+                >Baixar currículo ↓</a
+              >
+            </div>
+          </div>
+          <div
+            class="hero-art"
+            aria-label="Marca pessoal Oni flamejante de Davi Gomes"
+          >
+            <span class="art-label">CRIATIVIDADE ENCONTRA LÓGICA</span>
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <div class="art-grid"></div>
+            <div class="oni-emblem">
+              <img
+                src="assets/oni.png"
+                width="1280"
+                height="1280"
+                alt="Oni branco com chamas, olho roxo e duas presas"
+              />
+            </div>
+            <div class="floating-code">
+              <span class="code-dot"></span> const ideia =
+              <strong>criar();</strong>
+            </div>
+            <div class="art-footer">
+              <span>FRONTEND & BEYOND</span><span>↗</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span>↳ JUIZ DE FORA, MG · BRASIL</span
+          ><span>PRESENCIAL EM JF / REMOTO NO BRASIL</span
+          ><a href="#projetos" aria-label="Ir para projetos"
+            >ROLE PARA EXPLORAR ↓</a
+          >
+        </div>
+      </section>
+      <div class="ticker" aria-hidden="true">
+        <div>
+          REACT <b>✳</b> JAVASCRIPT <b>✳</b> INTERFACES <b>✳</b> NODE.JS
+          <b>✳</b> IDEIAS QUE GANHAM FORMA <b>✳</b> REACT <b>✳</b> JAVASCRIPT
+          <b>✳</b>
+        </div>
+      </div>
+      <section id="projetos" class="wrap section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / TRABALHOS SELECIONADOS</p>
+            <h2>Do conceito<br />ao <em>clique.</em></h2>
+          </div>
+          <p>
+            Um pouco de tecnologia, um pouco de criatividade.<br />Projetos que
+            mostram como penso e desenvolvo.
+          </p>
+        </div>
+        <article class="project featured">
+          <div
+            class="project-visual health"
+            role="img"
+            aria-label="Ilustração da proposta de orientação em saúde do IA da Família"
+          >
+            <div class="visual-top">
+              <span>✳ IA DA FAMÍLIA</span><span>SAÚDE + TECNOLOGIA</span>
+            </div>
+            <div class="chat-window">
+              <div class="chat-title">
+                <span class="health-symbol">✚</span>
+                <div>IA da Família<small>Informação que aproxima.</small></div>
+                <span class="online-dot"></span>
+              </div>
+              <div class="chat-message">
+                Um caminho mais simples<br />para encontrar orientação.
+              </div>
+              <div class="chat-reply">Tecnologia a serviço das pessoas. ✳</div>
+              <div class="chat-input">Como podemos ajudar? <span>↗</span></div>
+            </div>
+            <span class="visual-caption">REPRESENTAÇÃO VISUAL DO PROJETO</span>
+          </div>
+          <div class="project-info">
+            <span class="project-number">01 / EXTENSÃO ACADÊMICA</span>
+            <h3>IA da Família<span>↗</span></h3>
+            <p>
+              Uma plataforma para aproximar a população das informações e dos
+              serviços do SUS em Juiz de Fora.
+            </p>
+            <div class="tags">
+              <span>React</span><span>Node.js</span><span>Python</span
+              ><span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <button class="text-link details" data-project="ia">
+                Por trás do projeto ↗</button
+              ><a
+                href="https://github.com/Dav1Gomes/IA-da-Famlia"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Código ↗</a
+              >
+            </div>
+          </div>
+        </article>
+        <div class="project-pair">
+          <article class="project">
+            <div class="project-visual valorant">
+              <div class="visual-top">
+                <span>AGENTES VALORANT</span><span>ESCOLHA SEU AGENTE</span>
+              </div>
+              <div class="valorant-word" aria-hidden="true">VALORANT</div>
+              <img
+                class="valorant-agent"
+                src="assets/jett.png"
+                alt="Jett, agente de Valorant"
+                loading="lazy"
+                width="587"
+                height="900"
+              />
+              <div class="valorant-title">
+                Cada agente.<br />Uma nova <i>estratégia.</i>
+              </div>
+              <div class="agent-chip">
+                <span>01 / JETT</span><strong>DUELISTA ↗</strong>
+              </div>
+              <span class="visual-caption"
+                >COMPOSIÇÃO DO PORTFÓLIO · ARTE VIA VALORANT-API.COM</span
+              >
+            </div>
+            <div class="project-info">
+              <span class="project-number">02 / EXPERIÊNCIA WEB</span>
+              <h3>Agentes Valorant <span>↗</span></h3>
+              <p>
+                Explore os agentes de Valorant, encontre personagens por nome ou
+                função e conheça suas habilidades em uma interface inspirada no
+                jogo.
+              </p>
+              <div class="tags">
+                <span>JavaScript</span><span>HTML & CSS</span
+                ><span>Valorant API</span>
+              </div>
+              <div class="project-links">
+                <a
+                  class="text-link"
+                  href="https://dav1gomes.github.io/Agentes-Valorant/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver aplicação ↗</a
+                ><button class="details" data-project="valorant">
+                  Bastidores +</button
+                ><a
+                  href="https://github.com/Dav1Gomes/Agentes-Valorant"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Código ↗</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-visual finance">
+              <div class="visual-top">
+                <span>CARTEIRA DE AÇÕES</span><span>MOBILE / EXPO</span>
+              </div>
+              <div class="phone">
+                <div class="phone-notch"></div>
+                <p>Minha carteira <span>↗</span></p>
+                <small>VISUALIZE SUA JORNADA</small>
+                <h4>Investir.<br />Acompanhar.<br /><em>Evoluir.</em></h4>
+                <svg viewBox="0 0 250 95" aria-hidden="true">
+                  <path
+                    d="M0 82 L30 68 L60 75 L90 40 L120 55 L150 25 L180 37 L215 9 L250 15"
+                    fill="none"
+                    stroke="#32ff00"
+                    stroke-width="3"
+                  />
+                </svg>
+                <div class="phone-tabs">◫ <span>↗</span> ◎</div>
+              </div>
+              <span class="visual-caption"
+                >REPRESENTAÇÃO VISUAL DO PROJETO</span
+              >
+            </div>
+            <div class="project-info">
+              <span class="project-number">03 / APLICATIVO MOBILE</span>
+              <h3>Carteira de Ações <span>↗</span></h3>
+              <p>
+                Aplicativo para registrar operações, acompanhar investimentos e
+                visualizar o desempenho da carteira.
+              </p>
+              <div class="tags">
+                <span>React Native</span><span>Expo</span><span>Node.js</span>
+              </div>
+              <div class="project-links">
+                <button class="text-link details" data-project="carteira">
+                  Por trás do projeto ↗</button
+                ><a
+                  href="https://github.com/Dav1Gomes/ControleCarteiraAcoes"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Código ↗</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="github-heading">
+          <div>
+            <p class="eyebrow">A CURIOSIDADE NÃO PARA AQUI</p>
+            <h3>Mais do meu GitHub<span class="accent">.</span></h3>
+          </div>
+          <a
+            class="text-link"
+            href="https://github.com/Dav1Gomes"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Explorar perfil ↗</a
+          >
+        </div>
+        <div class="filters" role="group" aria-label="Filtrar repositórios">
+          <button class="active" data-filter="all" aria-pressed="true">
+            Todos</button
+          ><button data-filter="web" aria-pressed="false">Web</button
+          ><button data-filter="mobile" aria-pressed="false">Mobile</button
+          ><button data-filter="backend" aria-pressed="false">Backend</button>
+        </div>
+        <p id="repo-status" class="repo-status" role="status">
+          Carregando projetos…
+        </p>
+        <div id="repos" class="repos"></div>
+        <noscript
+          ><p>
+            Explore todos os projetos em
+            <a href="https://github.com/Dav1Gomes">github.com/Dav1Gomes</a>.
+          </p></noscript
+        >
+      </section>
+      <section id="sobre" class="about section">
+        <div class="wrap about-grid">
+          <div>
+            <p class="eyebrow">02 / QUEM ESTÁ POR TRÁS DO CÓDIGO</p>
+            <h2>Prazer,<br />Davi<span class="accent">.</span></h2>
+            <figure class="portrait">
+              <div class="portrait-frame">
+                <img
+                  src="assets/davi-gomes.jpg"
+                  width="400"
+                  height="400"
+                  alt="Retrato de Davi Gomes"
+                  loading="lazy"
+                />
+              </div>
+              <figcaption>
+                <span>DAVI GOMES DE CARVALHO</span
+                ><span class="portrait-spark" aria-hidden="true"
+                  ><img src="assets/oni.png" width="30" height="30" alt=""
+                /></span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="about-copy">
+            <p class="large-copy">
+              Gosto de entender como as coisas funcionam.<br /><span
+                >E de descobrir como podem funcionar melhor.</span
+              >
+            </p>
+            <p>
+              Sou Davi Gomes de Carvalho, desenvolvedor em Juiz de Fora e
+              formado em Análise e Desenvolvimento de Sistemas pelo Instituto
+              Vianna Júnior.
+            </p>
+            <p>
+              No IA da Família, desenvolvi interfaces em React, integrei
+              frontend e backend e liderei uma equipe multidisciplinar. Entre
+              projetos de saúde, games e finanças, sigo explorando maneiras de
+              transformar uma ideia em algo que as pessoas possam usar.
+            </p>
+            <div class="timeline">
+              <div>
+                <span>2023 — 2025</span
+                ><strong>Análise e Desenvolvimento de Sistemas</strong
+                ><small>Instituto Vianna Júnior · formação concluída</small>
+              </div>
+              <div>
+                <span>2024 — 2025</span><strong>IA da Família</strong
+                ><small
+                  >Projeto de extensão · desenvolvimento e liderança</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wrap section stack">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / MINHA CAIXA DE FERRAMENTAS</p>
+            <h2>Conhecimento<br />em <em>prática.</em></h2>
+          </div>
+          <p>
+            Tecnologias que uso para conectar<br />interface, lógica e dados.
+          </p>
+        </div>
+        <div class="stack-grid">
+          <div>
+            <span class="stack-icon">&lt;/&gt;</span>
+            <h3>Na interface</h3>
+            <p>
+              React · JavaScript · HTML · CSS<br />Tailwind CSS · React Native
+            </p>
+            <span class="stack-note">DO COMPONENTE À EXPERIÊNCIA</span>
+          </div>
+          <div>
+            <span class="stack-icon">{ }</span>
+            <h3>Nos bastidores</h3>
+            <p>Node.js · Express · Python · Java<br />MySQL · SQLite · APIs</p>
+            <span class="stack-note">CONEXÕES QUE FAZEM FUNCIONAR</span>
+          </div>
+          <div>
+            <span class="stack-icon">⌘</span>
+            <h3>No processo</h3>
+            <p>
+              Git · GitHub · GitLab · Docker<br />Colaboração · Organização ·
+              UI/UX
+            </p>
+            <span class="stack-note">CONSTRUIR É TAMBÉM COMPARTILHAR</span>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="contact">
+        <div class="wrap">
+          <p class="eyebrow">04 / VAMOS CONVERSAR?</p>
+          <div class="contact-title">
+            <h2>A próxima ideia<br />pode ser <em>a nossa.</em></h2>
+            <a
+              href="mailto:davigcarvalho4@gmail.com"
+              class="contact-arrow"
+              aria-label="Enviar email para Davi"
+              >↗</a
+            >
+          </div>
+          <div class="contact-bottom">
+            <div>
+              <p>Busco minha próxima oportunidade em desenvolvimento.</p>
+              <span>Presencial em Juiz de Fora · Remoto no Brasil</span>
+            </div>
+            <button id="copy-email" class="email">
+              davigcarvalho4@gmail.com <span>⧉</span>
+            </button>
+          </div>
+          <p id="copy-status" class="sr-only" role="status"></p>
+          <div class="contact-links">
+            <a href="mailto:davigcarvalho4@gmail.com">Enviar e-mail ↗</a
+            ><a
+              href="https://www.linkedin.com/in/davi-gomes-911821386/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn ↗</a
+            ><a
+              href="https://github.com/Dav1Gomes"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub ↗</a
+            ><a href="assets/Curriculo_Davi_Gomes.pdf" download>Currículo ↓</a
+            ><button id="recruiter">Visão para recrutadores +</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <a href="#inicio" class="logo"
+        ><img
+          class="brand-icon"
+          src="assets/oni.png"
+          width="48"
+          height="48"
+          alt="Oni flamejante"
+        /><span class="brand-name">Davi Gomes</span></a
+      >
+      <p>
+        © <span id="year">2026</span> Davi Gomes · Desenvolvido com intenção.
+      </p>
+      <a href="#inicio">De volta ao topo ↑</a>
+    </footer>
+    <dialog id="project-dialog">
+      <button class="dialog-close" aria-label="Fechar detalhes">✕</button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <dialog id="recruiter-dialog">
+      <button class="dialog-close" aria-label="Fechar resumo">✕</button>
+      <p class="eyebrow">PERFIL EM UM MINUTO</p>
+      <h2>Davi Gomes</h2>
+      <p class="large-copy">Desenvolvedor Frontend / Fullstack Júnior</p>
+      <p>ADS concluído em 2025 · Instituto Vianna Júnior</p>
+      <h3>Experiência prática</h3>
+      <p>
+        IA da Família, projeto de extensão em parceria com a Prefeitura de Juiz
+        de Fora. Frontend React, backend Node.js/Express, integração com Python
+        e liderança de equipe.
+      </p>
+      <h3>Principais tecnologias</h3>
+      <p>
+        React, JavaScript, HTML, CSS, Node.js, Express, Python, Java, MySQL,
+        SQLite e Git.
+      </p>
+      <h3>Disponibilidade</h3>
+      <p>Presencial em Juiz de Fora, MG, ou remoto para outras localidades.</p>
+      <a class="button primary" href="assets/Curriculo_Davi_Gomes.pdf" download
+        >Baixar currículo ↓</a
+      ><a class="text-link" href="mailto:davigcarvalho4@gmail.com"
+        >Entrar em contato ↗</a
+      ><a
+        class="recruiter-linkedin text-link"
+        href="https://www.linkedin.com/in/davi-gomes-911821386/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Ver LinkedIn ↗</a
+      >
+    </dialog>
+  </body>
+</html>
